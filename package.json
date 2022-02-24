@@ -4,7 +4,8 @@
   "description": "",
   "main": "vue-quarter-select.umd.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node ./node_modules/webpack/bin/webpack.js --mode production --watch --progress",
+    "build": "node ./node_modules/webpack/bin/webpack.js --mode production --progress"
   },
   "repository": {
     "type": "git",
@@ -12,5 +13,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
 }
