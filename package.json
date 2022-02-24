@@ -1,0 +1,16 @@
+{
+  "name": "v-quarter-select",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vue-quarter-select.umd.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duydn-dev/v-quarter-select.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
