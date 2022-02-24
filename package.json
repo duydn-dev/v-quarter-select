@@ -1,6 +1,6 @@
 {
   "name": "v-quarter-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "vue-quarter-select.umd.min.js",
   "scripts": {
